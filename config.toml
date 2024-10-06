@@ -1,0 +1,20 @@
+# config for the python script
+# note: script will ignore invalid settings
+
+[script]
+# what to use for the clan tag?
+# "clan" - the bot's 'clan', 2nd column
+# "owner" - the bot's 'owner', 3rd column
+# "none" or any other string - do not give bots clan tags
+tag="clan"
+
+# whether and how to insert clan tags in games that do not support it, e.g. CoD 4, MWR
+# put 'clan' in between the symbols you want, e.g. "[clan] " (spaces matter!)
+# script will not adapt if "clan" is not written.
+adapt="[clan] "
+
+[paths]
+# paths for bot name files:
+# CoD4x: Mods/mp_bots/scriptdata/botnames.txt
+# IW4x: [unavailable] inside the iw4x_00.iwd file
+# Plutonium IW5: Plutonium/storage/iw5/bots.txt
